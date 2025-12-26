@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: var(--secondary);
+  background-color: rgb(224, 224, 224);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,4 +113,11 @@ a {
 
 .footer {
   text-align: center;
+}
+
+#signupErrorMessage {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+  min-height: 20px;
 }
