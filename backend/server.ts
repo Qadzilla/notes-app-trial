@@ -30,6 +30,7 @@ interface Note {
 }
 
 const notes: Note[] = [];
+console.log(notes);
 
 // when a get request is made to the root path '/', sends the written response.
 app.get('/', (req, res) => {

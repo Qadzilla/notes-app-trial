@@ -65,7 +65,7 @@ async function signup(): Promise<void> {
     const data = await response.json();
     if (response.ok) {
       console.log('Signup successful!', data);
-      alert(`Account created fir ${data.username}!`);
+      alert(`Account created for ${data.username}!`);
       signupUsernameInput.value = '';
       signupPasswordInput.value = '';
       signupConfirmPasswordInput.value = '';
