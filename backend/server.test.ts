@@ -14,7 +14,7 @@ it('should create a new user with valid credentials', async () => {
 
   const response = await fetch(`${BASE_URL}/signup`, {
     method: 'POST',
-    headers: { 'Content-Type': 'application.json' },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       username: uniqueUsername,
       password: 'password123',
